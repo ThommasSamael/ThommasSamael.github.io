@@ -1,0 +1,65 @@
+@import '../../scss/vars';
+
+
+.burger-li.active {
+
+    max-height: 1000px;
+    font-size: 30px;
+    transition: 2s max-height ease;
+    
+
+    >ul {
+
+
+        >li {
+
+            
+            cursor: pointer;
+            border-bottom: rgba(255, 255, 0, 0) solid 5px;
+            width: 160px;
+            transition: 0.2s;
+            color: $color-base;
+
+            &:hover {
+                border-bottom: $color-active-hover solid 5px;
+
+            }
+        }
+    }
+
+
+
+
+
+}
+
+.bg-burger-li {
+
+    background: $background-color;
+
+}
+
+.burger-li.inactive{
+    max-height: 0px;
+    font-size: 30px;
+    transition: 1.5s max-height ease;
+    display: block;
+    color: $color-base;
+
+    >ul {
+
+
+        >li {
+            cursor: pointer;
+            border-bottom: rgba(255, 255, 0, 0) solid 5px;
+            width: 160px;
+            transition: 0.2s;
+
+            &:hover {
+                border-bottom: $color-active-hover solid 5px;
+
+            }
+        }
+    }
+   
+}

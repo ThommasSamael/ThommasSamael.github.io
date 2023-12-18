@@ -1,0 +1,81 @@
+@import '../../../scss/vars';
+
+.container_two_margin{
+    margin-bottom: 50px;
+    @media(max-width: 1199px){
+        margin-bottom: 30px;
+    }
+}
+
+.text1 {
+    color: $color-base;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+}
+
+.text2 {
+    color: $color-base;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.text3 {
+    color: $color-base;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.text3-1 {
+    color: $color-base;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.video1 {
+    width: 50%;
+    @media(max-width: 1000px){
+
+        width: 100%;
+
+    }
+    
+}
+
+.video-madia {
+    width: 100%;
+    height: auto;
+    transition: 1s border-top, 2s border-right, 3s border-bottom, 4s border-left;
+    border-top: rgba(255, 255, 0, 0) solid 4px;
+    border-right: rgba(255, 255, 0, 0) solid 4px;
+    border-bottom: rgba(255, 255, 0, 0) solid 4px;
+    border-left: rgba(255, 255, 0, 0) 4px;
+
+    -webkit-box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+    -moz-box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+    box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+}
+
+.video-madia.active{
+    transition: 1s border-top , 2s border-right , 3s border-bottom , 4s border-left;
+    border-top: $color-active-hover solid 4px ;
+    border-right: $color-active-hover solid 4px ;
+    border-bottom: $color-active-hover solid 4px ;
+    border-left: $color-active-hover solid 4px ;
+
+
+
+}
+

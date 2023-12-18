@@ -1,0 +1,54 @@
+@import '../_components/header/header';
+@import '../_components/header/burger';
+
+
+@import '../_components/main/SectionOne/sectionOne';
+@import '../_components/main/SectionTwo/sectionTwo';
+@import '../_components/main/SectionThree/VersionPC/versionPc';
+@import '../_components/main/SectionThree/VersionSmartPhone/versionSmartPhone';
+@import '../_components/main/BtnToTeam/btnToTeam';
+@import '../_components/main/BtnToTeam/popup';
+@import '../_components/main/SectionFour/SectionFourPc/sectionFourPc';
+@import '../_components/main/SectionFour/SectionFourSp/sectionFourSp';
+@import '../_components/main/SrctionFive/SectionFiveAll/sectionFiveAll';
+@import '../_components/main/SectionSix/sectionSix';
+@import '../_components/main/SectionSeven/sectionSeven';
+
+
+@import '../_components/footer/footer';
+
+
+
+
+@import './vars';
+
+
+
+
+*{
+ list-style: none;
+ margin: 0px;
+ padding: 0px;
+ 
+
+   
+ 
+}
+
+body{
+    background-color: $background-color;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: inline-block;
+    
+    
+}
+
+
+.flex-start{
+    justify-content: flex-end;
+    display: flex;
+    align-items: end;
+}
+

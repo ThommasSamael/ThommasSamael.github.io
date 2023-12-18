@@ -1,0 +1,75 @@
+@import '../../../../scss/vars';
+
+
+.video-madia-pc {
+    width: 100%;
+    
+    
+
+    
+}
+
+.video-madia-pc.active{
+    transition: 1s border-top , 2s border-right , 3s border-bottom , 4s border-left;
+    border-top: $color-active-hover solid 4px ;
+    border-right: $color-active-hover solid 4px ;
+    border-bottom: $color-active-hover solid 4px ;
+    border-left: $color-active-hover solid 4px ;
+
+    -webkit-box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+    -moz-box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+    box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+
+
+
+}
+
+.title_1{
+text-align: center;
+    color:$color-base;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+    
+}
+
+.border-right{
+    border-right: $color-active-hover solid 10px;
+    
+    
+}
+
+.text-sectionThree{
+    font-size: 25px;
+    color:$color-base;
+    text-align: center;
+    padding: 0 20px 0 20px;
+
+    @media(max-width: 1370px){
+        font-size: 22px;
+    }
+
+    
+    @media(max-width: 1214px){
+        font-size: 20px;
+    }
+    
+    @media(max-width: 1113px){
+        font-size: 17px;
+    }
+    
+    
+}
+
+.border-left{
+    border-left: $color-active-hover solid 10px;
+}
+
+.row-margin{
+    margin-top: 80px;
+}
+
+.row_end_three_pc{
+    margin-bottom: 50px;
+}
+

@@ -1,0 +1,28 @@
+@import '../../../scss/vars';
+
+.btnToteam {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: none;
+    border: $color-base solid 2px;
+    color: $color-base ;
+    font-size: 25px;
+    transition: color 0.3s, border 0.3s, box-shadow 0.3s, background-color 0.3s;
+
+    &:hover {
+
+        border: $color-active-hover solid 2px;
+        color: $background-color;
+        background-color: $color-active-hover;
+        -webkit-box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+        -moz-box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+        box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+
+    }
+
+    @media(max-width: 550px){
+        font-size: 20px;
+    }
+
+}

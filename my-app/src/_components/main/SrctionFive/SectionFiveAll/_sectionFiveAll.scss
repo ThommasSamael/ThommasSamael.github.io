@@ -1,0 +1,76 @@
+@import '../../../../scss/vars';
+
+.text_s_five {
+    font-size: 20px;
+    text-align: center;
+    color: $color-base;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+
+    @media(max-width: 700px){
+        font-size: 18px;
+       
+    }
+
+    @media(max-width: 600px){
+        font-size: 17px;
+       
+    }
+
+    @media(max-width: 500px){
+        font-size: 15px;
+       
+    }
+
+    @media(max-width: 450px){
+        font-size: 14px;
+       
+    }
+
+    @media(max-width: 400px){
+        font-size: 13px;
+       
+    }
+
+    @media(max-width: 350px){
+        font-size: 12px;
+       
+    }
+
+    @media(max-width: 250px){
+        font-size: 11px;
+       
+    }
+
+
+
+}
+
+
+
+
+.text_s_five_titel_go {
+    font-size: 27px;
+    text-align: center;
+    color: $color-active-hover;
+    font-weight: bold;
+    
+
+   
+
+
+}
+
+
+.section_five_h3{
+    color: $color-active-hover;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+

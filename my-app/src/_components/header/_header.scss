@@ -1,0 +1,65 @@
+@import '../../scss/vars';
+
+.icon {
+    font-size: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.burger-btn {
+    font-size: 30px;
+
+}
+
+.li {
+    >a {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 0px;
+        border-bottom: rgba(255, 255, 0, 0) solid 5px;
+        text-decoration: none;
+        color: $color-base;
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover {
+            border-bottom: $color-active-hover solid 5px;
+
+        }
+    }
+
+
+
+
+
+
+}
+
+.ul-header {
+    font-size: 25px;
+}
+
+.header-background-style {
+    background-color: $color-background-h-f;
+    color: $color-base;
+}
+
+.logo {
+    margin-top: 0px;
+    margin-left: 10px;
+
+
+}
+
+.burger-menu {
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    color: $color-base;
+    background: none;
+    border: $color-base solid 2px;
+
+}

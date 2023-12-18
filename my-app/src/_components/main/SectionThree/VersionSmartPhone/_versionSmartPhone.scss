@@ -1,0 +1,37 @@
+@import '../../../../scss/vars';
+
+.title_1_sp{
+    
+    text-align: center;
+    color:$color-base;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.text-sectionThree-Sp{
+    font-size: 19px;
+    color:$color-base;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    
+    
+}
+
+.border-text{
+    border-top: $color-active-hover solid 4px;
+    border-bottom: $color-active-hover solid 4px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    
+    
+    
+}
+
+.m-f-v{
+    margin-top: 5px;
+}
+
+.row_end_three_sp{
+    margin-bottom: 50px;
+}

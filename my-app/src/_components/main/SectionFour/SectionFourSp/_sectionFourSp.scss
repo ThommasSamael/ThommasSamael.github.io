@@ -1,0 +1,380 @@
+@import '../../../../scss/vars';
+
+
+//<----MIXIN----->
+
+@mixin circle($top, $left) {
+    background: $color-active-hover;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border-radius: 50%;
+    top: $top;
+    left: $left;
+    z-index: 2;
+    -webkit-box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+    -moz-box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+    box-shadow: -4px 4px 41px -28px rgb(255, 255, 255);
+  
+  
+  
+  }
+  
+  @mixin line_sp($top, $left) {
+    background: $color-active-hover;
+    display: inline-block;
+    position: relative;
+    width:15px;
+    height: 700px;
+    top: $top;
+    left: $left;
+    border-radius: 10px;
+    z-index: 1;
+    margin: 0px;
+   
+  
+  
+  }
+  
+  %textRowFourPc {
+    position: absolute;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  %text_box_four_Sp {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    background: rgba(37, 36, 36, 0.815);
+    width: 100%;
+  
+  
+  
+  }
+  
+  %box_for_line_sp{
+    position: absolute;
+    width: 100%;
+    
+    
+    left: 50%;
+    transform: translate(-50%)
+    
+    
+    
+    
+    
+  }
+  
+  
+  
+  //<-----Style----->
+  
+  .box_for_line_1_sp{
+   @extend %box_for_line_sp;
+    top: 200px;
+
+    
+  }
+  
+  .box_for_line_2_sp{
+    @extend %box_for_line_sp;
+     top: 1150px;
+     
+     
+   }
+
+   .box_for_line_3_sp{
+    @extend %box_for_line_sp;
+     top: 2100px;
+     
+     
+   }
+
+   .box_for_line_4_sp{
+    @extend %box_for_line_sp;
+     top: 3050px;
+     
+     
+   }
+
+   .box_for_line_5_sp{
+    @extend %box_for_line_sp;
+     top: 4000px;
+     
+     
+   }
+  
+  //  .box_for_line_3{
+  //   @extend %box_for_line_sp;
+  //    top: 1550px;
+     
+  //  }
+  
+  //  .box_for_line_4{
+  //   @extend %box_for_line_sp;
+  //    top: 2200px;
+     
+  //  }
+  
+  .p_four_pc {
+    color: $color-base;
+    font-size: 20px;
+    margin: 0;
+    @media(max-width: 1500px){
+  
+      font-size: 18px;
+      
+    }
+  }
+  
+  .h2_four_sp {
+    color: $color-active-hover;
+    
+    
+  
+  }
+  
+  
+  
+  
+  
+  .title_four {
+    text-align: center;
+    color: $color-base;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+  
+  
+  }
+  
+  .font_icon {
+    font-size: 110px;
+  
+  }
+  
+  
+  
+  
+  
+  .relative_fourSp {
+    width: 100%;
+    height: 4900px;
+    position: relative;
+    padding: 0;
+    margin: auto;
+  
+    @media(max-width: 1300px){
+      width: 100%;
+    }
+  
+  
+  }
+  
+  //<-----TEXT------>
+  
+  .box_four_sp_1 {
+    @extend %text_box_four_Sp;
+    left: 50%;
+    top: 600px;
+    transform: translate(-50%,-50%)
+  
+  }
+
+  .box_four_sp_2 {
+    @extend %text_box_four_Sp;
+    left: 50%;
+    top: 1550px;
+    transform: translate(-50%,-50%)
+  
+  }
+
+  .box_four_sp_3 {
+    @extend %text_box_four_Sp;
+    left: 50%;
+    top: 2500px;
+    transform: translate(-50%,-50%)
+  
+  }
+
+  .box_four_sp_4 {
+    @extend %text_box_four_Sp;
+    left: 50%;
+    top: 3500px;
+    transform: translate(-50%,-50%)
+  
+  }
+  
+
+  .box_four_sp_5 {
+    @extend %text_box_four_Sp;
+    left: 50%;
+    top: 4500px;
+    transform: translate(-50%,-50%)
+  
+  }
+  
+  
+  .box_four_sp_1, .box_four_sp_2 ,.box_four_sp_3,
+  .box_four_sp_4, .box_four_sp_5{
+    width: 60%;
+    @media(max-width: 1100px){
+      width: 100%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  //<-----Animation-Components----->
+  .circle_1_sp {
+    @include circle(150px, 50%);
+    transform: translate(-50%,-50%)
+    
+  }
+  
+  .line_1_sp {
+    @include line_sp(50%, 50%);
+    transform: translate(-50%)
+    
+  }
+
+  .circle_2_sp {
+    @include circle(1100px, 50%);
+    transform: translate(-50%,-50%)
+    
+  }
+  
+  .line_2_sp {
+    @include line_sp(50%, 50%);
+    transform: translate(-50%)
+    
+  }
+  
+  .circle_3_sp {
+    @include circle(2050px, 50%);
+    transform: translate(-50%,-50%)
+  }
+  
+  .line_3_sp {
+    @include line_sp(50%, 50%);
+    transform: translate(-50%)
+    
+  }
+
+  .circle_4_sp {
+    @include circle(3000px, 50%);
+    transform: translate(-50%,-50%)
+  }
+  
+  .line_4_sp {
+    @include line_sp(50%, 50%);
+    transform: translate(-50%)
+    
+  }
+
+  .circle_5_sp {
+    @include circle(3950px, 50%);
+    transform: translate(-50%,-50%)
+  }
+ 
+
+  .line_5_sp {
+    @include line_sp(50%, 50%);
+    transform: translate(-50%)
+    
+  }
+  
+  
+  
+  
+  
+  
+  @keyframes _down_sp {
+    from {
+      
+      height: 0px;
+      
+      
+    }
+  
+    to {
+      
+      height: 900px;
+      
+      
+    }
+
+  }
+  
+  ._down_sp {
+    animation-name: _down_sp;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    
+
+    
+  }
+
+
+  @keyframes zoom {
+    from {
+      transform:scale(0);
+      
+      
+      
+      
+    }
+  
+    to {
+     transform:scale(1);
+      
+      
+    }
+  }
+  
+  .zoom {
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+
+  @keyframes zoom_circle {
+    from {
+      width: 0px;
+      height: 0px;
+      
+      
+      
+      
+    }
+  
+    to {
+     width: 250px;
+     height: 250px;
+
+      
+      
+    }
+  }
+  
+  .zoom_circle {
+    animation-name: zoom_circle;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+  }
+
+
+
+
+  

@@ -1,0 +1,79 @@
+@import '../../scss/vars';
+
+.footer_background {
+    background-color: $color-background-h-f;
+    margin-top: 25px;
+}
+
+.title_footer {
+    color: $color-base;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title_small {
+    color: $color-base;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+
+
+
+}
+
+
+
+.ul_title_small {
+
+    padding: 0;
+
+    >li {
+        text-align: center;
+        color: $color-base;
+        font-size: 20px;
+        margin-top: 5px;
+
+
+
+
+    }
+}
+
+.title_social {
+    color: $color-base;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icons_social {
+    color: $color-base;
+    margin-bottom: 0px;
+
+    >li {
+
+        >a {
+            font-size: 40px;
+            color: $color-base;
+            text-decoration: none;
+            margin: 15px;
+            
+
+        }
+    }
+
+}
+
+.footer_p{
+    margin:auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    >p{
+    color: $color-base;
+    text-align: center;
+    margin: 5px;
+}
+}
